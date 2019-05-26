@@ -2,4 +2,4 @@
 
 ## Responsive Flexbox and Grid Portfolio Website
  
-### Statement: Initial release.
+### Statement: Initial test. 
