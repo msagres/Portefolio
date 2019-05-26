@@ -1,4 +1,4 @@
-# Portefolio type
+# Portfolio type
 
 ## Responsive Flexbox and Grid Portfolio Website
  
