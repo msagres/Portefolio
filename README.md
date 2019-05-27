@@ -5,6 +5,9 @@
 ### Statement: 
                 1. Initial test.
                 2. Index completed.
-
-[Preview](https://msagres.github.io/Portfolio/)
+                3. CSS
+                
+ ---
+                
+>Feel free to download and submit your sujections.
 
