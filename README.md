@@ -9,5 +9,5 @@
                 
  ---
 
->Feel free to download and submit your subjection.
+>Feel free to download and submit your ideas.
 
