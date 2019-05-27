@@ -18,6 +18,10 @@ body {
     background-size: cover;
 }
 
+section {
+    padding: 6rem;
+}
+
 a {
     text-decoration: none;
     color: #eee
@@ -35,6 +39,8 @@ p {
 /* GLOBAL */
 
 
+
+
 /* REUSABLE */
 .container {
     width: 90%;
@@ -46,7 +52,7 @@ p {
 
 .section-heading {
     text-align: center;
-    margin-top: 10rem;
+    margin-bottom: 10rem;
 }
 
 /* bar and circle */
@@ -81,16 +87,19 @@ p {
     border-radius: 100%;
     bottom: -1rem;
 }
-
 /* bar and circle */
-
 
 .section-heading h6 {
     font-size: 1.6rem;
     font-weight: 300;
 }
 
+.has-margin-right {
+    margin-right: 5rem;
+}
 /* REUSABLE */
+
+
 
 
 /* HEADER */
@@ -142,10 +151,8 @@ li {
     top: 0;
     border-radius: initial;
 }
-
 /* navbar */
-
-/* HAMBURGER MENU */
+/* hamburger menu */
 .menu-toggler {
     position: absolute;
     top: 5rem;
@@ -193,10 +200,8 @@ li {
 .open .bar.end {
     transform: rotate(-450deg) translateX(-.8rem);
 }
-
-/* HAMBURGER MENU */
-
-/* logo / description */
+/* hamburger menu */
+/* logo & description */
 .landing-text {
     position: absolute;
     top: 50%;
@@ -221,9 +226,10 @@ li {
     font-size: 2rem;
     font-weight: 300;
 }
-
 /* logo / description */
 /* HEADER */
+
+
 
 
 /* ABOUT */
@@ -283,6 +289,9 @@ li {
 
 /* ABOUT */
 
+
+
+
 /* SERVICES */
 .my-skils {
     margin-top: 10rem;
@@ -325,5 +334,65 @@ li {
     transform: rotate(-45deg);
 }
 /* SERVICES */
+
+
+
+
+/* PORTFOLIO */
+.portfolio-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem; 
+}
+
+.portfolio-item:last-child{
+    margin-bottom: 0;
+}
+
+.profile-img {
+    width: 50rem;
+    flex: 1;
+}
+
+.portfolio-description {
+    flex: 1;
+}
+
+.portfolio-description h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 1rem 0;
+}
+
+.portfolio-description h6 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    opacity: 0.3;
+}
+
+.portfolio-description .cta {
+    display: inline-block;
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #3883ff;
+    transition: color 650ms;
+}
+
+.portfolio-description .cta:hover {
+    color: #2f67cd;
+}
+/* PORTFOLIO */
+
+
+
+/* EXPERICENCE TIMELINE */
+
+/* EXPERIENCE TIMELINE */
+
+
+
 
 
