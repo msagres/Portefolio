@@ -31,6 +31,7 @@ p {
     font-size: 1.8rem;
     font-weight: 300;
 }
+/* GLOBAL */
 
 
 
@@ -39,16 +40,17 @@ header {
     width: 100%;
     height: 100vh;
 }
-
+/* navbar */
 .top-nav {
     width: 100%;
     height: 100vh;
     position: fixed;
     top: -100vh;
+    z-index: 50;
     background-color: #16152d;
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
-    transform: all 650ms cubic-bezier(1,0,0,1);
+    transition: all 650ms cubic-bezier(1,0,0,1);
 }
 
 .nav-list {
@@ -81,6 +83,7 @@ li {
     top: 0;
     border-radius: initial;
 }
+/* navbar */
 
 /* HAMBURGER MENU */
 .menu-toggler {
@@ -94,7 +97,7 @@ li {
     justify-content: space-between;
     cursor: pointer;
     z-index: 1500;
-    transition: transform 604ms ease-out;
+    transition: transform 605ms ease-out;
 }
 
 .menu-toggler.open {
@@ -131,3 +134,34 @@ li {
     transform: rotate(-450deg) translateX(-.8rem);
 }
 /* HAMBURGER MENU */
+
+/* logo / description */
+.landing-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+.landing-text h1 {
+    font-size: 20rem;
+    font-family: 'The Historia Demo', sans-serif;
+    background: linear-gradient(to top, #ffe838, #fd57bf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 1rem;
+    user-select: none;
+}
+
+.landing-text h6 {
+    font-size: 2rem;
+    font-weight: 300;
+}
+/* logo / description */
+
+/* HEADER */
+
+
