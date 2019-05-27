@@ -2,6 +2,9 @@
 
 ## Responsive Flexbox and Grid Portfolio Website
  
-### Statement: Initial test.
+### Statement: 
+                1. Initial test.
+                2. Index completed.
 
-https://msagres.github.io/Portfolio/
+[Preview](https://msagres.github.io/Portfolio/)
+
