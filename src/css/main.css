@@ -559,7 +559,7 @@ input[type="submit"]:hover {
 
 
 /* MADIA QUERIES */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1400px) {
     body {
         background: url("/src/images/sitebg2.jpg") no-repeat center fixed;
         background-size: cover;
@@ -622,6 +622,7 @@ input[type="submit"]:hover {
         left: -5.9rem;
     }
 }
+
 
 @media screen and (max-width: 600px) {
     .menu-toggler {
