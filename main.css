@@ -359,6 +359,7 @@ li {
 .profile-img {
     width: 50rem;
     flex: 1;
+    border-radius: 50%
 }
 
 .portfolio-description {
@@ -397,7 +398,7 @@ li {
 
 /* EXPERICENCE TIMELINE */
 .timeline ul {
-    border-left: 4px solid #ffe838;
+    border-left: 4px solid #f6b93b;
     border-radius: .8rem;
     background-color: rgba (0, 0, 0, 0.05);
     margin: 0 auto;
@@ -447,12 +448,12 @@ li {
 
 .timeline .date::after {
     content: '';
-    box-shadow: 0 0 0 4px #fd57bf;
+    box-shadow: 0 0 0 4px #A8DBA8;
     border-radius: 100%;
     left: -8rem;
     height: 1.5rem;
     width: 1.5rem;
-    background-color: #313534;
+    background-color: #3B8686;
 }
 
 /* EXPERIENCE TIMELINE */
@@ -485,7 +486,7 @@ textarea {
 
 input[type="submit"] {
     width: initial;
-    background-color: #fd57bf;
+    background-color: #6F95FF;
     color: #eee;
     padding: 1rem 2rem;
     border-radius: .8rem;
@@ -494,8 +495,8 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    color: #221e3f;
-    background-color: #ffe838;
+    color: #eee;
+    background-color: #5C65C0;
 }
 
 /* CONTACT */
