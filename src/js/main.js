@@ -7,6 +7,7 @@ $(document).ready(function () {
     $('.top-nav .nav-link').on('click', function () {
         $('.menu-toggler').removeClass('open');
         $('.top-nav').removeClass('open');
+        $('landing-text').removeClass('open');
     });
 
     $('nav a[href*="#"]').on('click', function () {

@@ -117,7 +117,7 @@ header {
     position: fixed;
     top: -100vh;
     z-index: 50;
-    background-color: #0B1732;
+    background-color: #11171f;
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
     transition: all 650ms cubic-bezier(1, 0, 0, 1);
@@ -281,19 +281,18 @@ li {
 }
 
 .fa-twitter-square:hover {
-    color: #4267b2;
-}
-
-.fa-facebook-square:hover {
     color: #38a1f3;
 }
 
+.fa-facebook-square:hover {
+    color: #4267b2;
+}
+
 .fa-git-square:hover {
-    color: #ea4c89;
+    color: #F05033;
 }
 
 /* ABOUT */
-
 
 
 
@@ -325,15 +324,16 @@ li {
 .icon-container {
     width: 10rem;
     height: 10rem;
-    border: 3px solid #ffe838;
-    background-color: #fd57bf;
+    border: 3px solid #f6b93b;
+    background: linear-gradient(110.66826971542821deg, rgba(47, 128, 140,1) 5.911420204978038%,rgba(99, 36, 126,1) 95.95534407027817%);
     margin-bottom: 2rem;
     display: flex;
     transform: rotate(45deg);
+    
 }
 
 .icon-container i {
-    color: #ffe838;
+    color: #FFF;
     font-size: 5rem;
     margin: auto;
     transform: rotate(-45deg);
@@ -541,15 +541,15 @@ input[type="submit"]:hover {
 /* ANIMATIONS */
 @keyframes pulse {
     0% {
-        box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.99);
+        box-shadow: 0 0 0 0 rgba(47, 128, 140, 1);
     }
 
     70% {
-        box-shadow: 0 0 0 2rem rgba(253, 87, 191, 0);
+        box-shadow: 0 0 0 2rem rgba(47, 128, 140, 0);
     }
 
     100% {
-        box-shadow: 0 0 0 0 rgba(253, 87, 191, 0);
+        box-shadow: 0 0 0 0 rgba(47, 128, 140, 0);
     }
 }
 
