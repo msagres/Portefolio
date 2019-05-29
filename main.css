@@ -72,7 +72,7 @@ p {
     bottom: -.5rem;
     left: 50%;
     transform: translateX(-50%);
-    background: linear-gradient(110.66826971542821deg, rgba(47, 128, 140, .85) 5.911420204978038%,rgba(99, 36, 126, .85) 95.95534407027817%);
+    background: linear-gradient(110.66826971542821deg, rgba(47, 128, 140, .85) 5.911420204978038%, rgba(99, 36, 126, .85) 95.95534407027817%);
 }
 
 .section-heading h1::before {
@@ -80,6 +80,7 @@ p {
     height: 3px;
     border-radius: .8rem;
 }
+
 /* 
 .section-heading h1::after {
     width: 1.5rem;
@@ -144,7 +145,7 @@ li {
 
 .nav-link:hover,
 .nav-link:focus {
-    background: linear-gradient(110.66826971542821deg, rgba(47, 128, 140,1) 5.911420204978038%,rgba(99, 36, 126,1) 95.95534407027817%);
+    background: linear-gradient(110.66826971542821deg, rgba(47, 128, 140, 1) 5.911420204978038%, rgba(99, 36, 126, 1) 95.95534407027817%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -175,7 +176,7 @@ li {
 }
 
 .bar {
-    background: linear-gradient(110.66826971542821deg, rgba(47, 128, 140,1) 5.911420204978038%,rgba(99, 36, 126,1) 95.95534407027817%);
+    background: linear-gradient(110.66826971542821deg, rgba(47, 128, 140, 1) 5.911420204978038%, rgba(99, 36, 126, 1) 95.95534407027817%);
     width: 100%;
     height: 4px;
     border-radius: .8rem;
@@ -219,7 +220,7 @@ li {
 .landing-text h1 {
     font-size: 20rem;
     font-family: 'thundergoodregular', sans-serif;
-    background: linear-gradient(110.66826971542821deg, rgba(47, 128, 140,1) 5.911420204978038%,rgba(99, 36, 126,1) 95.95534407027817%);
+    background: linear-gradient(110.66826971542821deg, rgba(47, 128, 140, 1) 5.911420204978038%, rgba(99, 36, 126, 1) 95.95534407027817%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 1rem;
@@ -325,11 +326,11 @@ li {
     width: 10rem;
     height: 10rem;
     border: 3px solid #f6b93b;
-    background: linear-gradient(110.66826971542821deg, rgba(47, 128, 140,1) 5.911420204978038%,rgba(99, 36, 126,1) 95.95534407027817%);
+    background: linear-gradient(110.66826971542821deg, rgba(47, 128, 140, 1) 5.911420204978038%, rgba(99, 36, 126, 1) 95.95534407027817%);
     margin-bottom: 2rem;
     display: flex;
     transform: rotate(45deg);
-    
+
 }
 
 .icon-container i {
@@ -561,9 +562,12 @@ input[type="submit"]:hover {
 /* MADIA QUERIES */
 @media screen and (max-width: 1400px) {
     body {
+
         /* background: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80') no-repeat center fixed cover; */
         /* background: url("/src/images/sitebg2.jpg") no-repeat center fixed;
         background-size:  cover; */
+        background: url('src/images/luca-bravo-207676-unsplash.jpg') no-repeat center fixed;
+        background-size: cover;
     }
 
     .landing-text h1 {
@@ -626,10 +630,15 @@ input[type="submit"]:hover {
 
 
 @media screen and (max-width: 600px) {
+    body {
+        background: url('src/images/luca-bravo-207676-unsplash.jpg') no-repeat center fixed;
+        background-size: cover;
+    }
+
     .menu-toggler {
         top: 2rem;
         right: 2rem;
-    
+
     }
 
     .landing-text h1 {
@@ -682,6 +691,7 @@ input[type="submit"]:hover {
         right: 2rem;
     }
 }
+
 /* MADIA QUERIES */
 
 
@@ -691,8 +701,8 @@ input[type="submit"]:hover {
     font-family: 'thundergoodregular';
     src: url('src/fonts/thundergood-webfont.eot');
     src: url('src/fonts/thundergood-webfont.ttf') format('embedded-opentype'),
-         url('src/fonts/thundergood-webfont.woff') format('woff2'),
-         url('src/fonts/thundergood-webfont.woff2') format('woff');
+        url('src/fonts/thundergood-webfont.woff') format('woff2'),
+        url('src/fonts/thundergood-webfont.woff2') format('woff');
     font-weight: normal;
     font-style: normal;
 
