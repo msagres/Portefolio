@@ -1,10 +1,10 @@
 /* GLOBAL */
 @font-face {
     font-family: 'thundergoodregular';
-    src: url('src/fonts/thundergood-webfont.eot');
-    src: url('src/fonts/thundergood-webfont.ttf') format('embedded-opentype'),
-         url('src/fonts/thundergood-webfont.woff') format('woff2'),
-         url('src/fonts/thundergood-webfont.woff2') format('woff');
+    src: url('/src/fonts/thundergood-webfont.eot');
+    src: url('/src/fonts/thundergood-webfont.ttf') format('embedded-opentype'),
+         url('/src/fonts/thundergood-webfont.woff') format('woff2'),
+         url('/src/fonts/thundergood-webfont.woff2') format('woff');
     font-weight: normal;
     font-style: normal;
 
