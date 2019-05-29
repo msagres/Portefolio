@@ -631,7 +631,7 @@ input[type="submit"]:hover {
 
 @media screen and (max-width: 600px) {
     body {
-        background: url('src/images/luca-bravo-207676-unsplash.jpg') no-repeat center fixed;
+        background: url('src/images/sitebg2.jpg') no-repeat center fixed;
         background-size: cover;
     }
 
