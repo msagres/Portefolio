@@ -1,15 +1,4 @@
 /* GLOBAL */
-@font-face {
-    font-family: 'thundergoodregular';
-    src: url('/src/fonts/thundergood-webfont.eot');
-    src: url('/src/fonts/thundergood-webfont.ttf') format('embedded-opentype'),
-         url('/src/fonts/thundergood-webfont.woff') format('woff2'),
-         url('/src/fonts/thundergood-webfont.woff2') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -594,7 +583,7 @@ input[type="submit"]:hover {
     }
 
     .nav-link {
-        font-size: 4.5rem;
+        font-size: 3.5rem;
     }
 
     .about-heading h1 {
@@ -694,3 +683,17 @@ input[type="submit"]:hover {
     }
 }
 /* MADIA QUERIES */
+
+
+
+/* FONTS */
+@font-face {
+    font-family: 'thundergoodregular';
+    src: url('/src/fonts/thundergood-webfont.eot');
+    src: url('/src/fonts/thundergood-webfont.ttf') format('embedded-opentype'),
+         url('/src/fonts/thundergood-webfont.woff') format('woff2'),
+         url('/src/fonts/thundergood-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
